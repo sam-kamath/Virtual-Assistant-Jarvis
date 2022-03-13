@@ -1,0 +1,49 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","wake up","jarvis"],
+            "responses":["Hello Sir","How are you sir?","Hiya Buddy"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","exit"],
+            "responses":["Bye sir","See you later","Bye","It will be nice to meet you again"]
+        },
+        {
+            "tag":"health",
+            "patterns":["How are you?","How you doin?","Hows everything?","You good buddy?"],
+            "responses":["Everything great sir","Im good. How are you?"]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","What is your name","Who are you?","What are you?"],
+            "responses":["Jarvis","I am Jarvis","An AI Assistant","My name is Jarvis","A great assistant"]
+        },
+        {
+            "tag":"time",
+            "patterns":["What is the time?","Time","Whats the time Jarvis","Time please?"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["What date is today?","Date","Whats the date Jarvis","Date please?"],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["What day is today?","Day","Whats the day Jarvis","Day please?"],
+            "responses":["day"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["Who is","about","What is","wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","search","google"],
+            "responses":["google"]
+        }
+    ]
+}
